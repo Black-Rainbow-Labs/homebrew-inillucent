@@ -27,24 +27,24 @@
 class Inillucent < Formula
   desc "Embedded SQL database with full-text and vector search, and an MCP server"
   homepage "https://inillucent.com"
-  version "2.10.0"
+  version "2.10.1"
   license "MIT"
 
   # One universal archive covers both Apple architectures, so macOS needs no
   # on_arm / on_intel split: the same file is correct either way.
   on_macos do
-    url "https://inillucent.com/downloads/inillucent-2.10.0-universal-apple-darwin.tar.gz"
-    sha256 "ff9640cfea8c81197046ddce73b3b48e8a63b6cdeb4f7da4177fc036869ae7e6"
+    url "https://inillucent.com/downloads/inillucent-2.10.1-universal-apple-darwin.tar.gz"
+    sha256 "bb4d8fb19365d4bd06af9b0892dfef05260bbbc7a4124554b5892162840bbde9"
   end
 
   on_linux do
     on_intel do
-      url "https://inillucent.com/downloads/inillucent-2.10.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "077492c0cf874d6fe005a031778e23c080658bb90492acfcc02c50defd2d1c6a"
+      url "https://inillucent.com/downloads/inillucent-2.10.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "943af4ed25c954b94b3894e443a3a19189e9bb28f3d480b6ce29b92963d3c4ea"
     end
     on_arm do
-      url "https://inillucent.com/downloads/inillucent-2.10.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "89d53e8f1401200271af6b3ee56f6709defbc10bae74be97362983e91b17112b"
+      url "https://inillucent.com/downloads/inillucent-2.10.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eea1eac4e52bcf87cb28232d6562b3cee466d792aedbfe72b9bac75633f229f0"
     end
   end
 
